@@ -9,9 +9,6 @@ import {
 import React, {useEffect} from 'react';
 import {CustomButton} from '../components';
 
-const width = Dimensions.get('window').width;
-const height = Dimensions.get('window').height;
-
 const About = () => {
   const onScreenLoad = () => {
     console.log('About Loaded');
